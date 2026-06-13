@@ -24,7 +24,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            font-family: 'Segoe UI', 'Quicksand', system-ui, -apple-system, cursive;
+            font-family: 'Segoe UI', system-ui, -apple-system, 'Quicksand', sans-serif;
             position: relative;
             overflow-x: hidden;
             padding: 20px;
@@ -123,7 +123,7 @@
             text-align: center;
             color: #b34e4e;
             font-weight: bold;
-            font-family: 'Segoe UI', 'Quicksand', cursive;
+            font-family: 'Segoe UI', system-ui, -apple-system, 'Quicksand', sans-serif;
             transition: all 0.5s ease;
             opacity: 0;
             transform: translateY(30px);
@@ -135,6 +135,8 @@
         .letter p {
             font-size: 22px;
             letter-spacing: 1px;
+            font-weight: 700;
+            font-family: 'Segoe UI', system-ui, -apple-system, 'Quicksand', sans-serif;
         }
 
         .letter small {
@@ -142,6 +144,7 @@
             color: #e08e8e;
             display: block;
             margin-top: 8px;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
         }
 
         /* Открытый конверт */
@@ -173,6 +176,7 @@
             font-size: 16px;
             letter-spacing: 0.5px;
             cursor: pointer;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
         }
 
         /* Стили для падающих сердечек */
